@@ -1,0 +1,77 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+#lrd_header {
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para las secciones del jugador y la computadora */
+.lrd_jugador,
+.lrd_computadora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para los títulos de las secciones */
+.lrd_jugador h2,
+.lrd_computadora h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Estilos para las imágenes de las opciones */
+.lrd_jugador img,
+.lrd_computadora img {
+  width: 100px; /* Ancho fijo de las imágenes */
+}
+
+/* Estilos para la sección de las opciones */
+.lrd_opciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Estilos para los botones de las opciones */
+.lrd_opciones button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para la sección del resultado */
+.lrd_resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para el título del resultado */
+.lrd_resultado h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Media query para pantallas menores a 600px de ancho (celulares) */
+@media only screen and (max-width: 600px) {
+  .lrd_piedrafoto,
+  .lrd_tijerafoto,
+  .lrd_papelfoto {
+    width: 25%;
+    height: 35%;
+  }
+  .lrd_jugadorfoto,
+  .lrd_computadorafoto {
+    width: 25%;
+    height: 35%;
+  }
+}

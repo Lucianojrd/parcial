@@ -23,11 +23,11 @@ function lrd_jugar(opcion) {
   console.log("Jugador eligió: " + opciones[opcionJugador]);
   console.log("Computadora eligió: " + opciones[opcionComputadora]);
 
-  jugadorEleccion.src = "imagenes/" + opciones[opcionJugador] + ".png";
-  computadoraEleccion.src = "imagenes/" + opciones[opcionComputadora] + ".png";
+  jugadorEleccion.src = "lrd_imagenes/" + opciones[opcionJugador] + ".png";
+  computadoraEleccion.src = "lrd_imagenes/" + opciones[opcionComputadora] + ".png";
 
-  jugadorEleccion.src = "imagenes/" + opciones[opcionJugador] + ".png";
-  computadoraEleccion.src = "imagenes/" + opciones[opcionComputadora] + ".png";
+  jugadorEleccion.src = "lrd_imagenes/" + opciones[opcionJugador] + ".png";
+  computadoraEleccion.src = "lrd_imagenes/" + opciones[opcionComputadora] + ".png";
 
   if (opcionJugador == piedra) {
     if (opcionComputadora == piedra) {

@@ -1,8 +1,18 @@
+
 /* Estilos generales */
 * {
   margin: 0;
   padding: 0;
 }
+img{
+  width: 50%;
+  height: 50%;
+}
+.lrd_jugadorfoto,
+.lrd_computadorafoto {
+    width: 50%;
+    height: 70%;
+  }
 
 /* Estilos para el encabezado */
 #lrd_header {
@@ -29,11 +39,6 @@
   font-size: 18px;
 }
 
-/* Estilos para las imágenes de las opciones */
-.lrd_jugador img,
-.lrd_computadora img {
-  width: 100px; /* Ancho fijo de las imágenes */
-}
 
 /* Estilos para la sección de las opciones */
 .lrd_opciones {

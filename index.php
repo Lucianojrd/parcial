@@ -1,6 +1,6 @@
 <?php
 include('lrd_includes/lrd_conexion.php');
-conectar();
+lrd_conectar();
 
 ?>
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ conectar();
             <h2>Jugador</h2>
             <img src="lrd_imagenes/lrd_jugador.png" alt="Jugador" id="lrd_jugador_eleccion" class="lrd_jugadorfoto">
         </div>
-        <div class="lrd_lrd_computadora">
+        <div class="lrd_computadora">
             <h2>Computadora</h2>
             <img src="lrd_imagenes/lrd_computadora.png" alt="Computadora" id="lrd_computadora_eleccion"
                 class="lrd_computadorafoto">
@@ -42,7 +42,7 @@ conectar();
                 while ($r = mysqli_fetch_array($sql)) {
                     ?>
                     <li>
-                        <?php echo $r['']; ?>
+                        <?php echo $r['desc']; ?>
                     </li>
                 
                     <?php
